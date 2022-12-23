@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgb(200, 200, 200, 0.8);
+    width: 80%;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.logo h1{
+    color: cyan;
+    letter-spacing: 7px;
+    font-size: 35px;
+}
+.nav a{
+    text-decoration: none;
+    color: #eee;
+    font-size: 20px;
+    margin-left: 12px;
+    letter-spacing: 1px;
+}
+.about{
+    width: 85%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-img{
+    width: 20%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-text{
+    width: 72%;
+    font-size: 1.1em;
+    color: #333;
+}
+.about-text p{
+    line-height: 1.5;
+    text-indent: 2em;
+    margin-top: 25px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.title h3{
+    font-size: 3em;
+    text-align: center;
+    color: #333;
+    letter-spacing: 6px;
+    margin: 0 20px;
+}
+.title .line{
+    height: 3px;
+    width: 75px;
+    background-color: #555;
+}
+body{
+    background-color: #eee;
+}
+.touch{
+    width: 35%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.touch-title img{
+    width: 50%;
+}
+.touch-title h3{
+    margin-top: 3px;
+    font-size: 1.3em;
+    letter-spacing: 5px;
+}
+.touch-text p{
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin-top: 25px;
+}
+.project ul{
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+}
+.project ul li{
+    list-style: none;
+    width: 24%;
+}
+.project ul li img{
+    display: block;
+    height: 180px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.project ul li p{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-color: #555;
+    font-size: 20px;
+    font-weight: 600;
+    color: #eee;
+    border-radius: 0 0 3px 3px;
+}
+.love h2{
+    margin: 12px 0;
+    text-align:center;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+    color: #555;
+}
+.love{
+    width: 60%;
+    margin: 30px auto;
+}
+.love span{
+    padding: 8px 0px 8px 25px;
+    font-size: 20px;
+    letter-spacing: 15px;
+    display: block;
+}
+.love span:nth-child(2){
+    border-radius: 8px 8px 0 0;
+    background-color: aquamarine;
+}
+.love span:nth-child(3){
+    background-color: aliceblue;
+}
+.love span:nth-child(4){
+    background-color: tan;
+}
+.love span:nth-child(5){
+    background-color: chocolate;
+}
+.love span:nth-child(6){
+    background-color: darkorchid;
+}
+.love span:nth-child(7){
+    background-color: darkorange;
+}
+.love span:nth-child(8){
+    background-color: gold;
+    border-radius: 0 0 8px 8px;
+}
+.br{
+    margin-top: 30px;
+}
+.tip{
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 10px;
+    margin-bottom: 12px;
+}
